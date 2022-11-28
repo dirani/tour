@@ -1,0 +1,18 @@
+package main
+
+import "golang.org/x/tour/pic"
+
+func Pic(dx, dy int) [][]uint8 {
+	y := make([][]uint8, dy)
+	x := make([]uint8, dx)
+	for j := range y {
+		for i := range x {
+			y[j][i] = uint8(i * i)
+		}
+	}
+	return y
+}
+
+func main() {
+	pic.Show(Pic)
+}
