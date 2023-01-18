@@ -15,4 +15,5 @@ func main() {
 	fmt.Println(j) // see the new value of j
 	fmt.Println("&j", &j)
 	fmt.Println("p", p)
+	fmt.Println("changing the executable")
 }
