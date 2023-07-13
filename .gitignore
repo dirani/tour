@@ -13,3 +13,6 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+notes/git.xml
+moretypes/1/pointers
+moretypes/1.1/extensions-server
